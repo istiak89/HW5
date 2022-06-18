@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.nav{
+    padding:10px;
+    position: relative;
+    background-color: black;
+    height: 40px;
+}
+.nav ul{
+    position: absolute;
+    right: 200px;
+}
+.nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    padding:5px;
+    transition: all 0.1s linear;
+}
+.nav ul li a:hover{
+    background-color: #04ffff;
+}
+.contact_part{
+    top:100px;
+    position:fixed;
+}
+.part01{
+    margin-left:-2px;
+    height: 40px;
+    width:40px;
+    background-color: rgb(0, 0, 0);
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    position: relative;
+    color: aqua;
+    border-radius:5px;
+}
+.p2{
+    background-color: #002efd;
+    color:#ff0000;
+}
+.p3{
+    background-color: aquamarine;
+    color:aquamarine;
+}
+.part01 p{
+    right: 2px;
+    top:50%;
+    position: absolute;
+    cursor:pointer;
+}
+
+.part01:hover{
+    color:black;
+    width:100px;
+}
+.text{
+    width:70%;
+    text-align: justify;
+    position: relative;
+    right:-200px;
+    z-index: -1;
+}
+}
+.gif img{
+    width:150px;
+    animation-name:animate__flipInX;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: relative;
+    margin-top:3px;
+    animation-direction: alternate;
+}
+.gif:hover ,.gif img:hover{
+    animation-play-state: paused;
+}
+@keyframes motion {
+    0%{
+        left:0px;
+    }
+    10%{
+        left:80.3px;
+        background-color: #a8a8a8;
+    }
+    20%{
+        left:160.6px;
+        background-color: #3ca50b;
+    }
+    30%{
+        left:240.9px;
+        background-color: #47a6b3;
+    }
+    40%{
+        left:321.2px;
+        background-color: #534949;
+    }
+    50%{
+        left:401.5px;
+        background-color: #29b30d;
+    }
+    60%{
+        left:481.8px;
+        background-color: #b3ff00;
+    }
+    70%{
+        left:562.1px;
+        background-color: #9b0733884141;
+    }
+    80%{
+        left:642.4px;
+        background-color: #00ff37;
+    }
+    90%{
+        left:771.7px;
+        background-color: #8400ff;
+    }
+    100%{
+        left:800px;
+    }
+    
+}
+
+.in{
+    width: 70%;
+    margin: auto;
+}
+.in input{
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+}
+.in input:hover{
+    font-size: 20px;
+    border:1px dotted rgb(26, 86, 177);
+}
+
+.btn button{
+    padding: 5px;
+    background-color: red;
+    color:white;
+    transition: all 0.1s linear;
+
+}
+.btn button:hover{
+    background-color: black;
+    color:white;
+}
